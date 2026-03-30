@@ -24,8 +24,16 @@ To write a Python function that accepts a number **N** and creates a list contai
 ### PROGRAM
 
 ```
+def sortlist():
+    l = eval(input())
+    l.sort()
+    print(l)
+
+sortlist()
 ```
 
 ### OUTPUT
+<img width="1237" height="205" alt="image" src="https://github.com/user-attachments/assets/6abe7c65-fc48-4ca9-86be-b7171afaf713" />
 
 ### RESULT
+Thus, the Python program to print student names in attendance order using a non-parameterized function has been successfully executed and the output is verified.
